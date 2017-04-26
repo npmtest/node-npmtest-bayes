@@ -1,6 +1,6 @@
 # npmtest-bayes
 
-#### test coverage for  [bayes (v0.0.6)](https://github.com/ttezel/bayes)  [![npm package](https://img.shields.io/npm/v/npmtest-bayes.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bayes) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bayes.svg)](https://travis-ci.org/npmtest/node-npmtest-bayes)
+#### basic test coverage for  [bayes (v0.0.6)](https://github.com/ttezel/bayes)  [![npm package](https://img.shields.io/npm/v/npmtest-bayes.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bayes) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bayes.svg)](https://travis-ci.org/npmtest/node-npmtest-bayes)
 
 #### Naive Bayes Classifier for node.js
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-bayes/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-bayes/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-bayes/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-bayes/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-bayes/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-bayes/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-bayes/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-bayes/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-bayes/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-bayes/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-bayes/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-bayes/build/coverage.html/index.html)
 
@@ -78,7 +78,8 @@
     "scripts": {
         "test": "mocha -t 30000 -R spec"
     },
-    "version": "0.0.6"
+    "version": "0.0.6",
+    "bin": {}
 }
 ```
 
